@@ -55,10 +55,14 @@ layout: default
 	</svg><a href="{{ "/feed.xml" | relative_url }}">Subscribe</a></p> -->
   {%- endif -%}
 
+  </div>
+
   <div class="col-lg-4 col-md-2">
     {% for category in site.categories %}
     {{ category | first }} {{ category | last | size }}
     {% endfor %}
+  </div>
+
   </div>
 
   <h1 id="-">새로운 오픈소스를 알아가는건 늘 흥미롭습니다</h1>
