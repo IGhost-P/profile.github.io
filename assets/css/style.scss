@@ -12,11 +12,6 @@
   @import "dark";
 {%- endif -%}
 
-@import "_syntax";
-@import "search";
-@import "dark";
-@import "toggle";
-
 .category {
   .active {
     color: blue;
