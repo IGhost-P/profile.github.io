@@ -12,7 +12,10 @@
   @import "dark";
 {%- endif -%}
 
-@import "style";
+@import "_syntax";
+@import "search";
+@import "dark";
+@import "toggle";
 
 .category {
   .active {
