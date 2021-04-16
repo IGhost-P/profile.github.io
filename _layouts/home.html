@@ -3,6 +3,17 @@ layout: default
 ---
 {%- if page.title -%}
 <h1 class="page-heading">{{ page.title }}</h1>
+</div>
+
+<div class="col-lg-4 col-md-2">
+  <ul>
+    {% for category in site.categories %}
+    <li>{{ category | first }} {{ category | last | size }}</li>
+    {% endfor %}
+  </ul>
+</div>
+
+</div>
 {%- endif -%}
 
 {{ content }}
