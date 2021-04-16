@@ -1,4 +1,4 @@
-I"+<h2 id="prerequisites">Prerequisites</h2>
+I"W1<h2 id="prerequisites">Prerequisites</h2>
 
 <p>Follow the <a href="https://jekyllrb.com/docs/installation/">Jekyll Docs</a> to complete the installation of <code class="language-plaintext highlighter-rouge">Ruby</code>, <code class="language-plaintext highlighter-rouge">RubyGems</code>, <code class="language-plaintext highlighter-rouge">Jekyll</code> and <code class="language-plaintext highlighter-rouge">Bundler</code>.</p>
 
@@ -15,26 +15,30 @@
 
 <p>Add this line to your Jekyll site’s <code class="language-plaintext highlighter-rouge">Gemfile</code>:</p>
 
-<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">gem</span> <span class="s2">"jekyll-theme-chirpy"</span>
-</code></pre></div></div>
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre><span class="n">gem</span> <span class="s2">"jekyll-theme-chirpy"</span>
+</pre></td></tr></tbody></table></code></pre></div></div>
 
 <p>And add this line to your Jekyll site’s <code class="language-plaintext highlighter-rouge">_config.yml</code>:</p>
 
-<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">theme</span><span class="pi">:</span> <span class="s">jekyll-theme-chirpy</span>
-</code></pre></div></div>
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre><span class="na">theme</span><span class="pi">:</span> <span class="s">jekyll-theme-chirpy</span>
+</pre></td></tr></tbody></table></code></pre></div></div>
 
 <p>And then execute:</p>
 
-<div class="language-console highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gp">$</span><span class="w"> </span>bundle
-</code></pre></div></div>
+<div class="language-console highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre><span class="gp">$</span><span class="w"> </span>bundle
+</pre></td></tr></tbody></table></code></pre></div></div>
 
 <p>Finally, copy the required files from the theme’s gem (for detailed files, see <a href="https://github.com/cotes2020/chirpy-starter">starter project</a>) to your Jekyll site.</p>
 
 <blockquote>
   <p><strong>Hint</strong>: To locate the installed theme’s gem, execute:</p>
 
-  <div class="language-console highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gp">$</span><span class="w"> </span>bundle info <span class="nt">--path</span> jekyll-theme-chirpy
-</code></pre></div>  </div>
+  <div class="language-console highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre><span class="gp">$</span><span class="w"> </span>bundle info <span class="nt">--path</span> jekyll-theme-chirpy
+</pre></td></tr></tbody></table></code></pre></div>  </div>
 </blockquote>
 
 <p>Or you can <a href="https://github.com/cotes2020/chirpy-starter/generate"><strong>use the starter template</strong></a> to create a Jekyll site to save time copying files from theme’s gem. We have prepared everything for you there!</p>
@@ -45,13 +49,15 @@
 
 <p>Install gem dependencies by:</p>
 
-<div class="language-console highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gp">$</span><span class="w"> </span>bundle
-</code></pre></div></div>
+<div class="language-console highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre><span class="gp">$</span><span class="w"> </span>bundle
+</pre></td></tr></tbody></table></code></pre></div></div>
 
 <p>And then execute:</p>
 
-<div class="language-console highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gp">$</span><span class="w"> </span>bash tools/init.sh
-</code></pre></div></div>
+<div class="language-console highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre><span class="gp">$</span><span class="w"> </span>bash tools/init.sh
+</pre></td></tr></tbody></table></code></pre></div></div>
 
 <blockquote>
   <p><strong>Note</strong>: If you don’t plan to deploy your site on GitHub Pages, append parameter option <code class="language-plaintext highlighter-rouge">--no-gh</code> at the end of the above command.</p>
@@ -90,16 +96,21 @@
 
 <p>You may want to preview the site contents before publishing, so just run it by:</p>
 
-<div class="language-console highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gp">$</span><span class="w"> </span>bundle <span class="nb">exec </span>jekyll s
-</code></pre></div></div>
+<div class="language-console highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre><span class="gp">$</span><span class="w"> </span>bundle <span class="nb">exec </span>jekyll s
+</pre></td></tr></tbody></table></code></pre></div></div>
 
 <p>Or run the site on Docker with the following command:</p>
 
-<div class="language-terminal highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gp">$</span><span class="w"> </span>docker run <span class="nt">-it</span> <span class="nt">--rm</span> <span class="se">\</span>
+<div class="language-terminal highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+</pre></td><td class="rouge-code"><pre><span class="gp">$</span><span class="w"> </span>docker run <span class="nt">-it</span> <span class="nt">--rm</span> <span class="se">\</span>
     <span class="nt">--volume</span><span class="o">=</span><span class="s2">"</span><span class="nv">$PWD</span><span class="s2">:/srv/jekyll"</span> <span class="se">\</span>
     <span class="nt">-p</span> 4000:4000 jekyll/jekyll <span class="se">\</span>
     jekyll serve
-</code></pre></div></div>
+</pre></td></tr></tbody></table></code></pre></div></div>
 
 <p>Open a browser and visit to <em><a href="http://localhost:4000">http://localhost:4000</a></em>.</p>
 
@@ -144,17 +155,23 @@
 
 <p>Go to the root of the source project, build your site by:</p>
 
-<div class="language-console highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gp">$</span><span class="w"> </span><span class="nv">JEKYLL_ENV</span><span class="o">=</span>production bundle <span class="nb">exec </span>jekyll b
-</code></pre></div></div>
+<div class="language-console highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre><span class="gp">$</span><span class="w"> </span><span class="nv">JEKYLL_ENV</span><span class="o">=</span>production bundle <span class="nb">exec </span>jekyll b
+</pre></td></tr></tbody></table></code></pre></div></div>
 
 <p>Or build the site with Docker by:</p>
 
-<div class="language-terminal highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gp">$</span><span class="w"> </span>docker run <span class="nt">-it</span> <span class="nt">--rm</span> <span class="se">\</span>
+<div class="language-terminal highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+</pre></td><td class="rouge-code"><pre><span class="gp">$</span><span class="w"> </span>docker run <span class="nt">-it</span> <span class="nt">--rm</span> <span class="se">\</span>
     <span class="nt">--env</span> <span class="nv">JEKYLL_ENV</span><span class="o">=</span>production <span class="se">\</span>
     <span class="nt">--volume</span><span class="o">=</span><span class="s2">"</span><span class="nv">$PWD</span><span class="s2">:/srv/jekyll"</span> <span class="se">\</span>
     jekyll/jekyll <span class="se">\</span>
     jekyll build
-</code></pre></div></div>
+</pre></td></tr></tbody></table></code></pre></div></div>
 
 <p>Unless you specified the output path, the generated site files will be placed in folder <code class="language-plaintext highlighter-rouge">_site</code> of the project’s root directory. Now you should upload those files to your web server.</p>
 

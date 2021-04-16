@@ -2,4 +2,4 @@ User-agent: *
 
 Disallow: /norobots/
 
-Sitemap: https://github.com/IGhost-P/profile.github.io/profile.github.io/sitemap.xml
+Sitemap: /sitemap.xml
